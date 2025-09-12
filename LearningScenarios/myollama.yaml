@@ -22,8 +22,8 @@ spec:
         ai.sap.com/resourcePlan: infer.s
     spec: |
       predictor:
-        # imagePullSecrets:
-        # - name: ""
+        imagePullSecrets:
+        - name: "sha256:d811262956ee2ad33b3caede886e12e78e460aaf84f6a026d11dfde398c7f7f9"
         minReplicas: 1
         maxReplicas: 1
         containers:
