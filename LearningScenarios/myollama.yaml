@@ -22,8 +22,6 @@ spec:
         ai.sap.com/resourcePlan: infer.s
     spec: |
       predictor:
-        imagePullSecrets:
-          - name: <YOUR_DOCKER_SECRET>
         minReplicas: 1
         maxReplicas: 1
         containers:
