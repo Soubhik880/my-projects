@@ -22,8 +22,8 @@ spec:
         ai.sap.com/resourcePlan: infer.s
     spec: |
       predictor:
-        imagePullSecrets:
-        - name: "soubhik880/ollama:ai-core"
+        # imagePullSecrets:
+        # - name: ""
         minReplicas: 1
         maxReplicas: 1
         containers:
