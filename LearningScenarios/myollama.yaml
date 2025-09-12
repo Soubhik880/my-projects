@@ -23,7 +23,7 @@ spec:
     spec: |
       predictor:
         imagePullSecrets:
-          - name: 588667d8-a642-4585-8913-cbb5ad1770e6
+          - name: 012300a8-3eea-468c-8250-d8008bad3799
         minReplicas: 1
         maxReplicas: 1
         containers:
