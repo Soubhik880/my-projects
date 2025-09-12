@@ -23,7 +23,7 @@ spec:
     spec: |
       predictor:
         imagePullSecrets:
-          - name: "eyJhdXRocyI6eyJodHRwczovL2h1Yi5kb2NrZXIuY29tL3JlcG9zaXRvcnkvZG9ja2VyL3NvdWJoaWs4ODAvb2xsYW1hLyI6eyJ1c2VybmFtZSI6InNvdWJoaWs4ODAiLCJwYXNzd29yZCI6IlNvdWJoaWtAODgwIiwiZW1haWwiOiJzb3ViaGlrLmt1bmR1ODgwQGdtYWlsLmNvbSIsImF1dGgiOiJjMjkxWW1ocGF6ZzRNRHBUYjNWaWFHbHJRRGc0TUE9PSJ9fX0="
+          - name: default
         minReplicas: 1
         maxReplicas: 1
         containers:
