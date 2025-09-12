@@ -23,7 +23,7 @@ spec:
     spec: |
       predictor:
         imagePullSecrets:
-          - name: default
+          - name: my-registry-secret1
         minReplicas: 1
         maxReplicas: 1
         containers:
