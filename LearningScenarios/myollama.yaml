@@ -23,7 +23,7 @@ spec:
     spec: |
       predictor:
         imagePullSecrets:
-          - name: ewogICJhdXRocyI6IHsKICAgICJodHRwczovL2h1Yi5kb2NrZXIuY29tL3JlcG9zaXRvcnkvZG9ja2VyL3NvdWJoaWs4ODAvb2xsYW1hIjogewogICAgICAidXNlcm5hbWUiOiAic291Ymhpazg4MCIsCiAgICAgICJwYXNzd29yZCI6ICJTb3ViaGlrQDg4MCIsCiAgICAgICJlbWFpbCI6ICJzb3ViaGlrLmt1bmR1ODgwQGdtYWlsLmNvbSIsCiAgICAgICJhdXRoIjogImMyOTFZbWhwYXpnNE1EcFRiM1ZpYUdsclFEZzRNQT09IgogICAgfQogIH0KfQ==
+          - name: my-registry-secret
         minReplicas: 1
         maxReplicas: 1
         containers:
