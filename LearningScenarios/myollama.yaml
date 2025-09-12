@@ -23,7 +23,7 @@ spec:
     spec: |
       predictor:
         imagePullSecrets:
-        - name: Default
+        - name: "sha256:6a670c3d1446a4ca2b436c152d5458dd67a13e3c5ccad2eb6e32828bf3aab9f7"
         minReplicas: 1
         maxReplicas: 1
         containers:
