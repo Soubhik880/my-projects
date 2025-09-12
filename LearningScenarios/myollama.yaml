@@ -23,7 +23,7 @@ spec:
     spec: |
       predictor:
         imagePullSecrets:
-          - name: my-registry-secret
+          - name: 588667d8-a642-4585-8913-cbb5ad1770e6
         minReplicas: 1
         maxReplicas: 1
         containers:
