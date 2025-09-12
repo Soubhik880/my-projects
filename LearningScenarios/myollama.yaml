@@ -24,6 +24,12 @@ spec:
       predictor:
         imagePullSecrets:
           - name: my-registry-secret2
+          -run: kubectl create secret docker-registry my-registry-secret2 \
+                --docker-server=hhttps://index.docker.io/v1/ \
+                --docker-username=soubhik880 \
+                --docker-password=Soubhik@880 \
+                --docker-email=soubhik.kundu880@gmail.com
+                 --namespace mynamespace --dry-run=client -o yaml | kubectl apply -f -
         minReplicas: 1
         maxReplicas: 1
         containers:
